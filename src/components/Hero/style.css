@@ -1,0 +1,114 @@
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.container-title p {
+    color: #000000;
+    font-size: 2rem
+}
+
+.container-title span {
+    color: #BEAEE2
+}
+
+.container-image img{
+    border: 2px solid #B1E693;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.container-title__name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.container-skills{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.container-skills__content{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ddd;
+}
+.html{
+    width: 90%;
+    background-color: #FF2442;
+    border-radius: 20px;
+}
+
+.css {
+    background-color: #22577A;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.js{
+    background-color: #FFB319;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.react{
+    background-color: #7EB5A6;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.react-native{
+    background-color: #28B5B5;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.vue{
+    background-color: #29BB89;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.node{
+    background-color: #96BB7C;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.container-contact{
+    width: 70%;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .container-title p {
+        color: #000000;
+       font-weight: bold;
+    }
+
+    .container-image img{
+        width: 340px
+    }
+}
